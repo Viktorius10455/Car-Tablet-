@@ -1,0 +1,28 @@
+body {
+    background: transparent;
+    font-family: Arial;
+}
+
+#tablet {
+    width: 400px;
+    background: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    display: none;
+}
+
+.vehicle {
+    background: #1e1e1e;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.vehicle:hover {
+    background: #2e2e2e;
+}
